@@ -1,6 +1,11 @@
 /* contoh jika penambahan style  */
 
 h1 {
-  color: blue;
-  font-size: 40px;
+    color: blue;
+    font-size: 40px;
+}
+
+h2 {
+    color: green;
+    font-size: 40px;
 }
