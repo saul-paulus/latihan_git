@@ -6,6 +6,11 @@ task hello{
 
 task world(dependsOn:hello){
     doLast {
-        println "world"
+        println " tim 12"
+    }
+}
+task tugas(dependsOn:world){
+    doLast{
+        println "this method create by Dedy"
     }
 }
