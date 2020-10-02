@@ -1,3 +1,5 @@
+task konfigurasi
+
 task hello{
     doLast{
         print 'hello, '
@@ -7,5 +9,11 @@ task hello{
 task world(dependsOn:hello){
     doLast {
         println "world"
+    }
+}
+
+konfigurasi{
+    doLast{
+        println'Checking network Connection'
     }
 }
