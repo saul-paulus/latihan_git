@@ -19,3 +19,8 @@ task tugas kelompok(dependsOn:world){
         println " ini adalah tugas kelompok"
     }
 }
+task tugas kelompok(dependsOn:world){
+    doLast{
+        println " tes lanjut coomit"
+    }
+}
