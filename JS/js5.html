@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script text="text/javascript">
+        var a = 47;
+        var b = 75;
+        var c = 100;
+        var d = 5;
+        document.write(a + " + " + b + " = " + (a + b) + "<br />");
+        document.write(a + " + " + b + " + " + c + " = " + (a + b + c) + "<br />");
+        document.write("(" + a + " + " + b + ")" + " - " + c + " = " + ((a + b) - c) + "<br />");
+        document.write("(" + a + " * " + b + ") + (" + c + " * " + d + ") = " + ((a * b) + (c * d)) + "<br />");
+
+        /*function fibonacci(n) {
+            var i;
+            var array_fib = new Array();
+            array_fib.push(0);
+            array_fib.push(1);
+            for (i = 0; i < n; i++) {
+                array_fib.push(array_fib[0] + array_fib[1]);
+                array_fib.shift();
+            }
+            return array_fib[0];
+        }
+
+        var i = 0;
+        var j = 1;
+        var k;
+        for (i = 0; i <= 40; i++)
+            document.write("Fibonacci(" + i + ") = " + fibonacci(i) + "<br>");
+*/
+        while (i < 40) {
+            document.write(i + "<br/>");
+            k = i + j;
+            i = j;
+            j = k;
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
