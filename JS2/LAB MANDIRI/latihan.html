@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var max = 0;
+        var pegawai = [] //buat array yang akan diisi dengan object 
+
+        function employee(nama, umur) {
+            this.nama = nama;
+            this.umur = umur;
+        }
+
+        function simpanObject() {
+            for (var i = 0; i <= max; i++) { // loop 
+                nama = document.getElementById('nama' + i).value;
+                umur = document.getElementById('umur' + i).value;
+                var peg = new employee(nama, umur); //buat object 
+                pegawai.push(peg); //push kedalam array                 
+            }
+        }
+
+        function ambilObject() {
+            for (var i = 0; i <= max; i++) { //loop
+                alert(pegawai[i].nama + " , " + pegawai[i].umur);
+            }
+        }
+
+        function addElement() {
+            var n = document.getElementById('n').value;
+            var x;
+
+            for (var i = 0; i < n; i++) {
+                //buat element nama
+                x = document.createElement("p");
+                var t = document.createTextNode("Masukan Nama " + i);
+                x.appendChild(t);
+
+                //buat input nama 
+                document.body.appendChild(x);
+                var input = document.createElement("input");
+                input.type = "text";
+                input.id = "nama" + i;
+                x.appendChild(input);
+
+                //buat element umur 
+                x = document.createElement("p");
+                var t = document.createTextNode("Masukan Umur " + i);
+                x.appendChild(t);
+
+                //buat input umur 
+                document.body.appendChild(x);
+                var input = document.createElement("input");
+                input.type = "text";
+                input.id = "umur" + i;
+                x.appendChild(input);
+
+                max = max + 1;
+            }
+        }
+    </script>
+
+    <form>
+        masukkan jumlah N:
+        <input type="text" onchange="addElement()" id="n"> <br />
+        <input type="button" value="simpan" onclick="simpanObject()">
+        <input type="button" value="ambil" onclick="ambilObject()">
+    </form>
+</body>
+
+</html>
