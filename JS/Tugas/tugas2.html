@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function kirim() {
+            var nama = document.getElementById("numb").value;
+            if (nama <= 10 && nama >= 1)
+                alert("selamat nilai yang anda masukkan benar...");
+            else alert(
+                "maaf, nilai yang anda masukkan salah, silahkan coba lagi dengan nilai antara 1 sampai 10. terima kasih"
+            );
+        }
+    </script>
+
+</head>
+
+<body>
+    <p>silahkan masukkan nomor antara 1 sampai 10:</p>
+    <input type="text" id="numb">
+    <button type="submit" onclick="kirim()">submit</button>
+    <p id="demo"></p>
+</body>
+
+</html>
