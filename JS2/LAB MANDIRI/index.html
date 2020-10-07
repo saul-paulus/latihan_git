@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .title {
+            margin-bottom: 10px;
+            text-align: center;
+            width: 325px;
+            color: green;
+            border: solid black 1px;
+        }
+        
+        button {
+            background-color: rgb(103, 207, 103);
+            color: black;
+            border: solid black 1px;
+        }
+        
+        input[type="number"] {
+            background-color: white;
+            border: solid black 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class=title>Tugas Irwan Syahputra</div>
+    <button id="kurang_10" onclick="display(-10)">-10</button>
+    <button id="kurang_1" onclick="display(-1)">-1</button>
+    <input type="number" name="" id="input" value="50"></input>
+    <button id="tambah_1" onclick="display(1)">+1</button>
+    <button id="tambah_10" onclick="display(10)">+10</button>
+
+    <script>
+        function display(val) {
+            let x = document.getElementById("input").value
+            let y = eval(x) + val
+            document.getElementById("input").value = y
+        }
+    </script>
+
+</body>
+
+</html>
