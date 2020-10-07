@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+</head>
+
+<body>
+    <h2>Tugas No 1</h2>
+    <div id='tugas1'></div>
+    <div id='tugas2'></div>
+    <div id='tugas3'></div>
+    <script>
+        var tugas = [];
+        var n = 20;
+        for (i = 0; i <= n; i++) {
+            if (n % i == 0) {
+                tugas.push(i);
+            }
+        }
+
+        document.getElementById("tugas1").innerHTML = tugas;
+        var urutNaik = tugas.sort(function(a, b) {
+            return a - b
+        })
+
+        document.getElementById("tugas2").innerHTML = urutNaik.join('#');
+        var urutTurun = tugas.sort(function(a, b) {
+            return b - a
+        })
+
+        document.getElementById("tugas3").innerHTML = urutTurun.join('-');
+    </script>
+    <h2>Tugas Nomor 2</h2>
+
+    <div id='array'></div>
+    <div id='array2'></div>
+    <div id='array3'></div>
+    <div id='array4'></div>
+    <div id='array5'></div>
+    <div id='array6'></div>
+    <div id='array7'></div>
+    <div id='array8'></div>
+    <div id='array9'></div>
+
+
+    <script text="text/javascript">
+        var namabuah = ['apel', 'anggur', 'apel'];
+        var buah1 = 'apel';
+        var buah2 = 'anggur';
+        var buah3 = 'apel';
+        document.getElementById("array2").innerHTML = buah1 + ", " +
+            buah2 + ", " + buah3;
+        document.getElementById("array").innerHTML = namabuah;
+        document.getElementById("array3").innerHTML = namabuah.join('#');
+        namabuah.push("jeruk"); //menambahkan array
+        document.getElementById("array3").innerHTML = namabuah;
+        namabuah.pop(); //menghapus array terakhir
+        document.getElementById("array4").innerHTML = namabuah;
+        namabuah.shift(); //menghapus array awal
+        document.getElementById("array5").innerHTML = namabuah;
+        namabuah.unshift("pepaya"); //menambahkan array di awal
+        document.getElementById("array6").innerHTML = namabuah;
+        namabuah.splice(1, 0, "mangga", "jeruk"); //memanipulasi array
+        document.getElementById("array7").innerHTML = namabuah;
+        var a = [1, 2, 3, 4]
+        var b = [5, 6, 7, 8]
+        document.getElementById("array8").innerHTML = a.concat(b); //menggabungkan array
+        document.getElementById("array9").innerHTML = namabuah.sort(); //mengurutkan array
+    </script>
+
+</body>
+
+</html>

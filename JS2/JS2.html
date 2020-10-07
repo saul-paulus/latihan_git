@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Tugas No 1</h2>
+    <div id='tugas1'></div>
+    <div id='tugas2'></div>
+    <div id='tugas3'></div>
+    <script>
+        var n = 5;
+
+        function factorial(n) {
+            return n ? n * factorial(n - 1) : 1;
+        }
+        document.getElementById("tugas1").innerHTML = factorial(n);
+
+        function kondisi(n) {
+            if (n == 1) {
+                return 1;
+            } else {
+                var hasil;
+                hasil = (factorial(n - 1)) * n;
+                return hasil;
+            }
+        }
+        document.getElementById("tugas2").innerHTML = kondisi(n);
+        document.getElementById("tugas3").innerHTML = kondisi(n - 1);
+    </script>
+    <h2>Tugas Nomor 2</h2>
+
+    <div id='ntugas1'></div>
+    <div id='ntugas2'></div>
+    <div id='ntugas3'></div>
+    <div id='ntugas4'></div>
+    <div id='ntugas5'></div>
+    <script text="text/javascript">
+        // Source https://github.com/howion/activation-functions
+        // IDENTITY
+        function Identity(x) {
+            return x;
+        };
+        // BINARY STEP
+        function BinaryStep(x) {
+            return ((x < 0) ? 0 : 1);
+        }; // SIGMOID 
+        function Sigmoid(x) {
+            return 1 / (1 + Math.exp(-x));
+        }; // TanH
+        function TanH(x) {
+            return (Math.exp(x) - Math.exp(-x)) + (Math.exp(x) + Math.exp(-x));
+        };
+        // Rectified Linear Unit
+        function ReLU(x) {
+            return ((x < 0) ? 0 : x);
+        };
+        document.getElementById("ntugas1").innerHTML = "Identity " + Identity(n);
+        document.getElementById("ntugas2").innerHTML = "BinaryStep " + BinaryStep(n);
+        document.getElementById("ntugas3").innerHTML = "Sigmoid " + Sigmoid(n);
+        document.getElementById("ntugas4").innerHTML = "TanH " + TanH(n);
+        document.getElementById("ntugas5").innerHTML = "ReLU " + ReLU(n);
+    </script>
+
+</body>
+
+</html>
