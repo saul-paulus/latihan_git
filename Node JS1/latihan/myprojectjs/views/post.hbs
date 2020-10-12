@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Hello {{ name }}</title>
+    <!--Load bootstrap.css file-->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron">
+                    <h1 class="display-3">Tambah User Baru</h1>
+                    <form class="form-inline" action="http://127.0.0.1:8000/post" method="POST">
+                        <div class="form-group mx-sm-3 mb-2">
+                            <label for="inputFullName" class="sr-only">Full Name</label>
+                            <input type="text" class="form-control" id="inputFullName" placeholder="Full Name"
+                                name="name">
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Load bootstrap.js file-->
+    <script src="js /bootstrap.js">
+    </script>
+</body>
+
+</html>
