@@ -1,6 +1,10 @@
-/*
+/* README
 Membuat arsitektur server , tutorial di link ini-------->
 https://www.nexmo.com/blog/2020/03/13/using-jwt-for-authentication-in-a-golang-application-dr
+
+
+port aktif di 8081,
+untuk menjalankan ----> go run main.go
 */
 
 package main
