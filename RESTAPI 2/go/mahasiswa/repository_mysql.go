@@ -10,8 +10,7 @@ import (
 const table = `mahasiswa`
 const dateformat = `2006-01-02 15:04:05`
 
-
-func SelectAll(db *sql.DB) (mahasiswas []model.Mahasiswa,err error) {
+func SelectAll(db *sql.DB) (mahasiswas []model.Mahasiswa, err error) {
 	sql := fmt.Sprintf(`SELECT * FROM %s ORDER BY id DESC`, table)
 	rows, err := db.Query(sql)
 	if err != nil {
@@ -28,9 +27,9 @@ func SelectAll(db *sql.DB) (mahasiswas []model.Mahasiswa,err error) {
 			&m.Semester,
 			&createdAt,
 			&updatedAt)
-		m.CreatedAt, _ = time.Parse(dateformat,createdAt)
-		m.UpdatedAt, _ = time.Parse(dateformat,updatedAt)
-		if err !=nil {
+		m.CreatedAt, _ = time.Parse(dateformat, createdAt)
+		m.UpdatedAt, _ = time.Parse(dateformat, updatedAt)
+		if err != nil {
 			return nil, err
 		}
 		mahasiswas = append(mahasiswas, m)
@@ -42,12 +41,12 @@ func Insert(db *sql.DB, m *model.Mahasiswa) (err error) {
 	sql := fmt.Sprintf(`INSERT INTO %v (nim, name, semester, created_at, updated_at) 
 VALUES(?,?,?,?,?)`, table)
 	now := time.Now()
-	res, err := db.Exec(sql,m.NIM,m.Name,m.Semester,now,now)
+	res, err := db.Exec(sql, m.NIM, m.Name, m.Semester, now, now)
 	if err != nil {
 		return err
 	}
 	lastId, err := res.LastInsertId()
-	
+
 	if err != nil {
 		return err
 	}
@@ -60,7 +59,7 @@ VALUES(?,?,?,?,?)`, table)
 func Update(db *sql.DB, m *model.Mahasiswa, ru *model.ResponseUpdate) (err error) {
 	sql := fmt.Sprintf(`UPDATE %v set nim = ?, name =?, semester = ?, updated_at = ? where id = ?`, table)
 	now := time.Now()
-	res, err := db.Exec(sql,m.NIM,m.Name,m.Semester,now,m.ID)
+	res, err := db.Exec(sql, m.NIM, m.Name, m.Semester, now, m.ID)
 
 	if err != nil {
 		return err
@@ -73,9 +72,9 @@ func Update(db *sql.DB, m *model.Mahasiswa, ru *model.ResponseUpdate) (err error
 	return nil
 }
 
-func Delete(db *sql.DB, m *model.Mahasiswa, rd *model.ResponseDelete, id) (err error) {
-	sql := fmt.Sprintf("DELETE FROM %v where id = ?", table)	
-	res, err := db.Exec(sql, id)
+func Delete(db *sql.DB, m *model.Mahasiswa, rd *model.ResponseDelete) (err error) {
+	sql := fmt.Sprintf("DELETE FROM %v where id = ?", table)
+	res, err := db.Exec(sql, rd.id)
 
 	if err != nil {
 		return err

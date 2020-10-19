@@ -102,7 +102,7 @@ func (s *Server) MahasiswaDelete() func(http.ResponseWriter, *http.Request) {
 		if utils.IsError(w, err) {
 			return
 		}
-		err = mahasiswa.Delete(s.db, &m, &rd, &nId)
+		err = mahasiswa.Delete(s.db, &m, &nId)
 		if utils.IsError(w, err) {
 			return
 		}
