@@ -10,15 +10,3 @@ type Mahasiswa struct {
 	CreatedAt time.Time `json:"created_at"`
 	UpdatedAt time.Time `json:"updated_at"`
 }
-
-type ResponseUpdate struct {
-	Status  int    `json:"status"`
-	Message string `json:"message"`
-	Data    []Mahasiswa
-}
-
-type ResponseDelete struct {
-	Status  int    `json:"status"`
-	Message string `json:"message"`
-	Data    []Mahasiswa
-}
