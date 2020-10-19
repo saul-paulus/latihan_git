@@ -12,7 +12,7 @@ import (
 	"net/http"
 )
 
-const addr = `:7000`
+const addr = `:7001`
 
 type Server struct {
 	db      *sql.DB
@@ -34,6 +34,7 @@ func InitServer() *Server {
 func (s *Server) Listen() {
 	log.Println(`listen at ` + addr)
 	http.HandleFunc(`/mahasiswa`, s.Mahasiswa())
+	//http.HandleFunc(`/mahasiswa/show`, s.MahasiswaGetFromID())
 	http.HandleFunc(`/mahasiswa/create`, s.MahasiswaCreate())
 	http.HandleFunc(`/mahasiswa/update`, s.MahasiswaUpdate())
 	http.HandleFunc(`/mahasiswa/delete`, s.MahasiswaDelete())
@@ -51,6 +52,7 @@ func (s *Server) Mahasiswa() handler {
 		utils.ResponseJson(w, mahasiswas)
 	}
 }
+
 func (s *Server) MahasiswaCreate() func(http.ResponseWriter, *http.Request) {
 	return func(w http.ResponseWriter, r *http.Request) {
 		if r.Method == `GET` {
@@ -86,30 +88,29 @@ func (s *Server) MahasiswaUpdate() func(http.ResponseWriter, *http.Request) {
 		if utils.IsError(w, err) {
 			return
 		}
-		utils.ResponseJson(w, m)
+		utils.ResponseJson(w, ru)
 	}
 }
 
 func (s *Server) MahasiswaDelete() func(http.ResponseWriter, *http.Request) {
 	return func(w http.ResponseWriter, r *http.Request) {
-		// Get the URL `?id=X` parameter
-		nId := r.URL.Query().Get("id")
-
+		if r.Method == `GET` {
+			http.ServeFile(w, r, s.ViewDir+`mahasiswa_delete.html`)
+			return
+		}
 		m := model.Mahasiswa{}
 		rd := model.ResponseDelete{}
-
 		err := json.NewDecoder(r.Body).Decode(&m)
 		if utils.IsError(w, err) {
 			return
 		}
-		err = mahasiswa.Delete(s.db, &m, &nId)
+		err = mahasiswa.Delete(s.db, &m, &rd)
 		if utils.IsError(w, err) {
 			return
 		}
-		utils.ResponseJson(w, m)
+		utils.ResponseJson(w, rd)
 	}
 }
-
 func main() {
 	server := InitServer()
 	server.Listen()

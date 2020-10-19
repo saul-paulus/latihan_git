@@ -5,7 +5,7 @@
 </head>
 
 <body>
-    <form method="post">
+    <form method="put">
         <label>ID</label>
         <input type="number" name="id" id="id" /><br/>
         <label>NIM</label>
@@ -27,7 +27,7 @@
             data.nim = parseInt(data.nim);
             data.semester = parseInt(data.semester);
             let res = await fetch('', {
-                method: 'POST',
+                method: 'PUT',
                 headers: {
                     'content-type': 'application/json'
                 },

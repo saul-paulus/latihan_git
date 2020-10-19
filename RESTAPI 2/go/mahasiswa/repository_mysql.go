@@ -69,12 +69,14 @@ func Update(db *sql.DB, m *model.Mahasiswa, ru *model.ResponseUpdate) (err error
 	if err != nil {
 		return err
 	}
-	return nil
+	ru.JumlahUpdate = int(aff)
+
+	return
 }
 
 func Delete(db *sql.DB, m *model.Mahasiswa, rd *model.ResponseDelete) (err error) {
 	sql := fmt.Sprintf("DELETE FROM %v where id = ?", table)
-	res, err := db.Exec(sql, rd.id)
+	res, err := db.Exec(sql, m.ID)
 
 	if err != nil {
 		return err
@@ -84,5 +86,9 @@ func Delete(db *sql.DB, m *model.Mahasiswa, rd *model.ResponseDelete) (err error
 	if err != nil {
 		return err
 	}
-	return nil
+	rd.Status = int(aff)
+	rd.Message = "Berhasil Delete"
+
+	fmt.Println(m)
+	return
 }
