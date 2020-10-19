@@ -19,6 +19,7 @@ type Server struct {
 	ViewDir string
 }
 type handler func(w http.ResponseWriter, r *http.Request)
+type H map[string]interface{}
 
 func InitServer() *Server {
 	db, err := config.Mysql()
@@ -76,11 +77,12 @@ func (s *Server) MahasiswaUpdate() func(http.ResponseWriter, *http.Request) {
 			return
 		}
 		m := model.Mahasiswa{}
+		ru := model.ResponseUpdate{}
 		err := json.NewDecoder(r.Body).Decode(&m)
 		if utils.IsError(w, err) {
 			return
 		}
-		err = mahasiswa.Update(s.db, &m)
+		err = mahasiswa.Update(s.db, &m, &ru)
 		if utils.IsError(w, err) {
 			return
 		}
@@ -94,11 +96,13 @@ func (s *Server) MahasiswaDelete() func(http.ResponseWriter, *http.Request) {
 		nId := r.URL.Query().Get("id")
 
 		m := model.Mahasiswa{}
+		rd := model.ResponseDelete{}
+
 		err := json.NewDecoder(r.Body).Decode(&m)
 		if utils.IsError(w, err) {
 			return
 		}
-		err = mahasiswa.Delete(s.db, &m, &nId)
+		err = mahasiswa.Delete(s.db, &m, &rd, &nId)
 		if utils.IsError(w, err) {
 			return
 		}

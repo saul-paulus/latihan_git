@@ -57,7 +57,7 @@ VALUES(?,?,?,?,?)`, table)
 	return
 }
 
-func Update(db *sql.DB, m *model.Mahasiswa) (err error) {
+func Update(db *sql.DB, m *model.Mahasiswa, ru *model.ResponseUpdate, ) (err error) {
 	sql := fmt.Sprintf(`UPDATE %v set nim = ?, name =?, semester = ?, updated_at = ? where id = ?`, table)
 	now := time.Now()
 	res, err := db.Exec(sql,m.NIM,m.Name,m.Semester,now,m.ID)
@@ -73,7 +73,7 @@ func Update(db *sql.DB, m *model.Mahasiswa) (err error) {
 	return nil
 }
 
-func Delete(db *sql.DB, m *model.Mahasiswa, id) (err error) {
+func Delete(db *sql.DB, m *model.Mahasiswa, rd *model.ResponseDelete, id) (err error) {
 	sql := fmt.Sprintf("DELETE FROM %v where id = ?", table)	
 	res, err := db.Exec(sql, id)
 
