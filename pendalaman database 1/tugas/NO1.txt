@@ -1,0 +1,45 @@
+db.getCollection("rating").aggregate(
+    [
+        { 
+            "$project" : { 
+                "_id" : null, 
+                "rating" : "$$ROOT"
+            }
+        }, 
+        { 
+            "$lookup" : { 
+                "localField" : "rating.post_id", 
+                "from" : "post", 
+                "foreignField" : "_id", 
+                "as" : "post"
+            }
+        }, 
+        { 
+            "$unwind" : { 
+                "path" : "$post", 
+                "preserveNullAndEmptyArrays" : false
+            }
+        }, 
+        { 
+            "$group" : { 
+                "_id" : { 
+                    "post᎐title" : "$post.title"
+                }, 
+                "totalRating" : { 
+                    "$sum" : 1
+                },
+                "avgRating" : { 
+                    "$avg" : { $toInt: "$rating.value" }
+                }
+            }
+        }, 
+        { 
+            "$project" : { 
+                "post.title" : "$_id.post᎐title", 
+                "totalRating" : "$totalRating", 
+                "avgRating": "$avgRating",
+                "_id" : NumberInt(0)
+            }
+        }
+    ]
+);

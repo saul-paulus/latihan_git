@@ -1,0 +1,1145 @@
+[{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bb96"
+  },
+  "post_id": "5f93c63912385642c0cc16f5",
+  "user_id": "5f94b30e0be6070894e1b94e",
+  "value": "4",
+  "date_rating": "2020-10-19T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bb97"
+  },
+  "post_id": "5f93c5b612385642c0cc16f3",
+  "user_id": "5f94b30e0be6070894e1b949",
+  "value": "3",
+  "date_rating": "2020-10-17T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bb98"
+  },
+  "post_id": "5f93c59c12385642c0cc16ec",
+  "user_id": "5f94b30e0be6070894e1b948",
+  "value": "4",
+  "date_rating": "2020-10-15T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bb99"
+  },
+  "post_id": "5f93c63912385642c0cc16f5",
+  "user_id": "5f94b30e0be6070894e1b953",
+  "value": "3",
+  "date_rating": "2020-10-12T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bb9a"
+  },
+  "post_id": "5f93c67112385642c0cc16f7",
+  "user_id": "5f94b30e0be6070894e1b94b",
+  "value": "4",
+  "date_rating": "2020-10-12T14:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bb9b"
+  },
+  "post_id": "5f93c5a612385642c0cc16ee",
+  "user_id": "5f94b30e0be6070894e1b951",
+  "value": "2",
+  "date_rating": "2020-10-12T13:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bb9c"
+  },
+  "post_id": "5f93c5a612385642c0cc16ee",
+  "user_id": "5f94b30e0be6070894e1b947",
+  "value": "3",
+  "date_rating": "2020-10-11T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bb9d"
+  },
+  "post_id": "5f93c59c12385642c0cc16ec",
+  "user_id": "5f94b30e0be6070894e1b951",
+  "value": "4",
+  "date_rating": "2020-10-09T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bb9e"
+  },
+  "post_id": "5f93c63512385642c0cc16f4",
+  "user_id": "5f94b30e0be6070894e1b94e",
+  "value": "4",
+  "date_rating": "2020-09-12T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bb9f"
+  },
+  "post_id": "5f93c5af12385642c0cc16f1",
+  "user_id": "5f94b30e0be6070894e1b94a",
+  "value": "2",
+  "date_rating": "2020-10-22T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bba0"
+  },
+  "post_id": "5f93c4b2b8a19af79a0f2676",
+  "user_id": "5f94b30e0be6070894e1b953",
+  "value": "3",
+  "date_rating": "2020-10-23T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bba1"
+  },
+  "post_id": "5f93c5a612385642c0cc16ee",
+  "user_id": "5f94b30e0be6070894e1b950",
+  "value": "4",
+  "date_rating": "2020-10-23T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bba2"
+  },
+  "post_id": "5f93c5a912385642c0cc16ef",
+  "user_id": "5f94b30e0be6070894e1b952",
+  "value": "2",
+  "date_rating": "2020-09-12T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bba3"
+  },
+  "post_id": "5f93c5b612385642c0cc16f3",
+  "user_id": "5f94b30e0be6070894e1b949",
+  "value": "1",
+  "date_rating": "2020-10-19T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bba4"
+  },
+  "post_id": "5f93c5af12385642c0cc16f1",
+  "user_id": "5f94b30e0be6070894e1b946",
+  "value": "1",
+  "date_rating": "2020-10-17T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bba5"
+  },
+  "post_id": "5f93c5a612385642c0cc16ee",
+  "user_id": "5f94b30e0be6070894e1b952",
+  "value": "3",
+  "date_rating": "2020-10-15T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bba6"
+  },
+  "post_id": "5f93c5ac12385642c0cc16f0",
+  "user_id": "5f94b30e0be6070894e1b94a",
+  "value": "4",
+  "date_rating": "2020-10-12T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bba7"
+  },
+  "post_id": "5f93c5af12385642c0cc16f1",
+  "user_id": "5f94b30e0be6070894e1b94a",
+  "value": "2",
+  "date_rating": "2020-10-12T14:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bba8"
+  },
+  "post_id": "5f93c5a912385642c0cc16ef",
+  "user_id": "5f94b30e0be6070894e1b948",
+  "value": "1",
+  "date_rating": "2020-10-12T13:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bba9"
+  },
+  "post_id": "5f93c5b312385642c0cc16f2",
+  "user_id": "5f94b30e0be6070894e1b948",
+  "value": "4",
+  "date_rating": "2020-10-11T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbaa"
+  },
+  "post_id": "5f93c5a012385642c0cc16ed",
+  "user_id": "5f94b30e0be6070894e1b94d",
+  "value": "3",
+  "date_rating": "2020-10-09T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbab"
+  },
+  "post_id": "5f93c66e12385642c0cc16f6",
+  "user_id": "5f94b30e0be6070894e1b953",
+  "value": "2",
+  "date_rating": "2020-09-12T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbac"
+  },
+  "post_id": "5f93c5b612385642c0cc16f3",
+  "user_id": "5f94b30e0be6070894e1b951",
+  "value": "2",
+  "date_rating": "2020-10-22T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbad"
+  },
+  "post_id": "5f93c5b612385642c0cc16f3",
+  "user_id": "5f94b30e0be6070894e1b94d",
+  "value": "1",
+  "date_rating": "2020-10-23T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbae"
+  },
+  "post_id": "5f93c5b312385642c0cc16f2",
+  "user_id": "5f94b30e0be6070894e1b94e",
+  "value": "3",
+  "date_rating": "2020-10-23T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbaf"
+  },
+  "post_id": "5f93c66e12385642c0cc16f6",
+  "user_id": "5f94b30e0be6070894e1b949",
+  "value": "3",
+  "date_rating": "2020-09-12T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbb0"
+  },
+  "post_id": "5f93c63912385642c0cc16f5",
+  "user_id": "5f94b30e0be6070894e1b94b",
+  "value": "4",
+  "date_rating": "2020-10-19T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbb1"
+  },
+  "post_id": "5f93c63512385642c0cc16f4",
+  "user_id": "5f94b30e0be6070894e1b947",
+  "value": "2",
+  "date_rating": "2020-10-17T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbb2"
+  },
+  "post_id": "5f93c67112385642c0cc16f7",
+  "user_id": "5f94b30e0be6070894e1b946",
+  "value": "1",
+  "date_rating": "2020-10-15T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbb3"
+  },
+  "post_id": "5f93c5a012385642c0cc16ed",
+  "user_id": "5f94b30e0be6070894e1b94e",
+  "value": "4",
+  "date_rating": "2020-10-12T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbb4"
+  },
+  "post_id": "5f93c59c12385642c0cc16ec",
+  "user_id": "5f94b30e0be6070894e1b94d",
+  "value": "3",
+  "date_rating": "2020-10-12T14:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbb5"
+  },
+  "post_id": "5f93c63912385642c0cc16f5",
+  "user_id": "5f94b30e0be6070894e1b948",
+  "value": "3",
+  "date_rating": "2020-10-12T13:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbb6"
+  },
+  "post_id": "5f93c5af12385642c0cc16f1",
+  "user_id": "5f94b30e0be6070894e1b952",
+  "value": "2",
+  "date_rating": "2020-10-11T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbb7"
+  },
+  "post_id": "5f93c63512385642c0cc16f4",
+  "user_id": "5f94b30e0be6070894e1b94b",
+  "value": "2",
+  "date_rating": "2020-10-09T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbb8"
+  },
+  "post_id": "5f93c5a012385642c0cc16ed",
+  "user_id": "5f94b30e0be6070894e1b951",
+  "value": "2",
+  "date_rating": "2020-09-12T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbb9"
+  },
+  "post_id": "5f93c66e12385642c0cc16f6",
+  "user_id": "5f94b30e0be6070894e1b94c",
+  "value": "2",
+  "date_rating": "2020-10-22T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbba"
+  },
+  "post_id": "5f93c67112385642c0cc16f7",
+  "user_id": "5f94b30e0be6070894e1b946",
+  "value": "1",
+  "date_rating": "2020-10-23T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbbb"
+  },
+  "post_id": "5f93c5a912385642c0cc16ef",
+  "user_id": "5f94b30e0be6070894e1b94a",
+  "value": "2",
+  "date_rating": "2020-10-23T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbbc"
+  },
+  "post_id": "5f93c5b612385642c0cc16f3",
+  "user_id": "5f94b30e0be6070894e1b946",
+  "value": "3",
+  "date_rating": "2020-09-12T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbbd"
+  },
+  "post_id": "5f93c5af12385642c0cc16f1",
+  "user_id": "5f94b30e0be6070894e1b951",
+  "value": "2",
+  "date_rating": "2020-10-19T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbbe"
+  },
+  "post_id": "5f93c63912385642c0cc16f5",
+  "user_id": "5f94b30e0be6070894e1b953",
+  "value": "1",
+  "date_rating": "2020-10-17T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbbf"
+  },
+  "post_id": "5f93c67112385642c0cc16f7",
+  "user_id": "5f94b30e0be6070894e1b953",
+  "value": "1",
+  "date_rating": "2020-10-15T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbc0"
+  },
+  "post_id": "5f93c5ac12385642c0cc16f0",
+  "user_id": "5f94b30e0be6070894e1b94e",
+  "value": "4",
+  "date_rating": "2020-10-12T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbc1"
+  },
+  "post_id": "5f93c5b612385642c0cc16f3",
+  "user_id": "5f94b30e0be6070894e1b952",
+  "value": "3",
+  "date_rating": "2020-10-12T14:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbc2"
+  },
+  "post_id": "5f93c5a912385642c0cc16ef",
+  "user_id": "5f94b30e0be6070894e1b947",
+  "value": "3",
+  "date_rating": "2020-10-12T13:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbc3"
+  },
+  "post_id": "5f93c66e12385642c0cc16f6",
+  "user_id": "5f94b30e0be6070894e1b94c",
+  "value": "2",
+  "date_rating": "2020-10-11T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbc4"
+  },
+  "post_id": "5f93c63512385642c0cc16f4",
+  "user_id": "5f94b30e0be6070894e1b94d",
+  "value": "2",
+  "date_rating": "2020-10-09T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbc5"
+  },
+  "post_id": "5f93c59c12385642c0cc16ec",
+  "user_id": "5f94b30e0be6070894e1b950",
+  "value": "2",
+  "date_rating": "2020-09-12T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbc6"
+  },
+  "post_id": "5f93c5b612385642c0cc16f3",
+  "user_id": "5f94b30e0be6070894e1b948",
+  "value": "2",
+  "date_rating": "2020-10-22T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbc7"
+  },
+  "post_id": "5f93c5a012385642c0cc16ed",
+  "user_id": "5f94b30e0be6070894e1b94c",
+  "value": "1",
+  "date_rating": "2020-10-23T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbc8"
+  },
+  "post_id": "5f93c5af12385642c0cc16f1",
+  "user_id": "5f94b30e0be6070894e1b945",
+  "value": "2",
+  "date_rating": "2020-10-23T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbc9"
+  },
+  "post_id": "5f93c5a612385642c0cc16ee",
+  "user_id": "5f94b30e0be6070894e1b949",
+  "value": "3",
+  "date_rating": "2020-09-12T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbca"
+  },
+  "post_id": "5f93c5a912385642c0cc16ef",
+  "user_id": "5f94b30e0be6070894e1b953",
+  "value": "2",
+  "date_rating": "2020-10-19T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbcb"
+  },
+  "post_id": "5f93c63512385642c0cc16f4",
+  "user_id": "5f94b30e0be6070894e1b949",
+  "value": "1",
+  "date_rating": "2020-10-17T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbcc"
+  },
+  "post_id": "5f93c63512385642c0cc16f4",
+  "user_id": "5f94b30e0be6070894e1b950",
+  "value": "1",
+  "date_rating": "2020-10-15T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbcd"
+  },
+  "post_id": "5f93c63912385642c0cc16f5",
+  "user_id": "5f94b30e0be6070894e1b94e",
+  "value": "4",
+  "date_rating": "2020-10-12T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbce"
+  },
+  "post_id": "5f93c67112385642c0cc16f7",
+  "user_id": "5f94b30e0be6070894e1b946",
+  "value": "3",
+  "date_rating": "2020-10-12T14:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbcf"
+  },
+  "post_id": "5f93c63512385642c0cc16f4",
+  "user_id": "5f94b30e0be6070894e1b94d",
+  "value": "3",
+  "date_rating": "2020-10-12T13:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbd0"
+  },
+  "post_id": "5f93c5a012385642c0cc16ed",
+  "user_id": "5f94b30e0be6070894e1b94f",
+  "value": "2",
+  "date_rating": "2020-10-11T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbd1"
+  },
+  "post_id": "5f93c5af12385642c0cc16f1",
+  "user_id": "5f94b30e0be6070894e1b953",
+  "value": "2",
+  "date_rating": "2020-10-09T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbd2"
+  },
+  "post_id": "5f93c66e12385642c0cc16f6",
+  "user_id": "5f94b30e0be6070894e1b952",
+  "value": "2",
+  "date_rating": "2020-09-12T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbd3"
+  },
+  "post_id": "5f93c63912385642c0cc16f5",
+  "user_id": "5f94b30e0be6070894e1b949",
+  "value": "2",
+  "date_rating": "2020-10-22T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbd4"
+  },
+  "post_id": "5f93c5a912385642c0cc16ef",
+  "user_id": "5f94b30e0be6070894e1b953",
+  "value": "1",
+  "date_rating": "2020-10-23T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbd5"
+  },
+  "post_id": "5f93c5a612385642c0cc16ee",
+  "user_id": "5f94b30e0be6070894e1b94e",
+  "value": "2",
+  "date_rating": "2020-10-23T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbd6"
+  },
+  "post_id": "5f93c59c12385642c0cc16ec",
+  "user_id": "5f94b30e0be6070894e1b947",
+  "value": "3",
+  "date_rating": "2020-09-12T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbd7"
+  },
+  "post_id": "5f93c59c12385642c0cc16ec",
+  "user_id": "5f94b30e0be6070894e1b945",
+  "value": "2",
+  "date_rating": "2020-10-19T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbd8"
+  },
+  "post_id": "5f93c5a012385642c0cc16ed",
+  "user_id": "5f94b30e0be6070894e1b951",
+  "value": "1",
+  "date_rating": "2020-10-17T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbd9"
+  },
+  "post_id": "5f93c4b2b8a19af79a0f2676",
+  "user_id": "5f94b30e0be6070894e1b94b",
+  "value": "1",
+  "date_rating": "2020-10-15T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbda"
+  },
+  "post_id": "5f93c5b612385642c0cc16f3",
+  "user_id": "5f94b30e0be6070894e1b945",
+  "value": "4",
+  "date_rating": "2020-10-12T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbdb"
+  },
+  "post_id": "5f93c66e12385642c0cc16f6",
+  "user_id": "5f94b30e0be6070894e1b94b",
+  "value": "3",
+  "date_rating": "2020-10-12T14:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbdc"
+  },
+  "post_id": "5f93c5b312385642c0cc16f2",
+  "user_id": "5f94b30e0be6070894e1b948",
+  "value": "3",
+  "date_rating": "2020-10-12T13:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbdd"
+  },
+  "post_id": "5f93c5a012385642c0cc16ed",
+  "user_id": "5f94b30e0be6070894e1b949",
+  "value": "2",
+  "date_rating": "2020-10-11T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbde"
+  },
+  "post_id": "5f93c5ac12385642c0cc16f0",
+  "user_id": "5f94b30e0be6070894e1b946",
+  "value": "2",
+  "date_rating": "2020-10-09T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbdf"
+  },
+  "post_id": "5f93c5a612385642c0cc16ee",
+  "user_id": "5f94b30e0be6070894e1b945",
+  "value": "2",
+  "date_rating": "2020-09-12T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbe0"
+  },
+  "post_id": "5f93c5b312385642c0cc16f2",
+  "user_id": "5f94b30e0be6070894e1b94a",
+  "value": "2",
+  "date_rating": "2020-10-22T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbe1"
+  },
+  "post_id": "5f93c4b2b8a19af79a0f2676",
+  "user_id": "5f94b30e0be6070894e1b946",
+  "value": "1",
+  "date_rating": "2020-10-23T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbe2"
+  },
+  "post_id": "5f93c5b312385642c0cc16f2",
+  "user_id": "5f94b30e0be6070894e1b952",
+  "value": "2",
+  "date_rating": "2020-10-23T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbe3"
+  },
+  "post_id": "5f93c5a612385642c0cc16ee",
+  "user_id": "5f94b30e0be6070894e1b94a",
+  "value": "3",
+  "date_rating": "2020-09-12T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbe4"
+  },
+  "post_id": "5f93c5a912385642c0cc16ef",
+  "user_id": "5f94b30e0be6070894e1b94d",
+  "value": "2",
+  "date_rating": "2020-10-19T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbe5"
+  },
+  "post_id": "5f93c5a612385642c0cc16ee",
+  "user_id": "5f94b30e0be6070894e1b946",
+  "value": "1",
+  "date_rating": "2020-10-17T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbe6"
+  },
+  "post_id": "5f93c66e12385642c0cc16f6",
+  "user_id": "5f94b30e0be6070894e1b94c",
+  "value": "1",
+  "date_rating": "2020-10-15T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbe7"
+  },
+  "post_id": "5f93c59c12385642c0cc16ec",
+  "user_id": "5f94b30e0be6070894e1b951",
+  "value": "4",
+  "date_rating": "2020-10-12T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbe8"
+  },
+  "post_id": "5f93c5af12385642c0cc16f1",
+  "user_id": "5f94b30e0be6070894e1b952",
+  "value": "3",
+  "date_rating": "2020-10-12T14:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbe9"
+  },
+  "post_id": "5f93c4b2b8a19af79a0f2676",
+  "user_id": "5f94b30e0be6070894e1b949",
+  "value": "3",
+  "date_rating": "2020-10-12T13:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbea"
+  },
+  "post_id": "5f93c5b612385642c0cc16f3",
+  "user_id": "5f94b30e0be6070894e1b948",
+  "value": "2",
+  "date_rating": "2020-10-11T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbeb"
+  },
+  "post_id": "5f93c67112385642c0cc16f7",
+  "user_id": "5f94b30e0be6070894e1b949",
+  "value": "2",
+  "date_rating": "2020-10-09T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbec"
+  },
+  "post_id": "5f93c63512385642c0cc16f4",
+  "user_id": "5f94b30e0be6070894e1b948",
+  "value": "2",
+  "date_rating": "2020-09-12T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbed"
+  },
+  "post_id": "5f93c67112385642c0cc16f7",
+  "user_id": "5f94b30e0be6070894e1b94a",
+  "value": "2",
+  "date_rating": "2020-10-22T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbee"
+  },
+  "post_id": "5f93c4b2b8a19af79a0f2676",
+  "user_id": "5f94b30e0be6070894e1b951",
+  "value": "1",
+  "date_rating": "2020-10-23T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbef"
+  },
+  "post_id": "5f93c66e12385642c0cc16f6",
+  "user_id": "5f94b30e0be6070894e1b94a",
+  "value": "2",
+  "date_rating": "2020-10-23T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbf0"
+  },
+  "post_id": "5f93c5ac12385642c0cc16f0",
+  "user_id": "5f94b30e0be6070894e1b94a",
+  "value": "3",
+  "date_rating": "2020-09-12T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbf1"
+  },
+  "post_id": "5f93c5b612385642c0cc16f3",
+  "user_id": "5f94b30e0be6070894e1b952",
+  "value": "2",
+  "date_rating": "2020-10-19T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbf2"
+  },
+  "post_id": "5f93c63512385642c0cc16f4",
+  "user_id": "5f94b30e0be6070894e1b949",
+  "value": "1",
+  "date_rating": "2020-10-17T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbf3"
+  },
+  "post_id": "5f93c5a012385642c0cc16ed",
+  "user_id": "5f94b30e0be6070894e1b950",
+  "value": "1",
+  "date_rating": "2020-10-15T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbf4"
+  },
+  "post_id": "5f93c63912385642c0cc16f5",
+  "user_id": "5f94b30e0be6070894e1b94c",
+  "value": "4",
+  "date_rating": "2020-10-12T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbf5"
+  },
+  "post_id": "5f93c67112385642c0cc16f7",
+  "user_id": "5f94b30e0be6070894e1b94d",
+  "value": "3",
+  "date_rating": "2020-10-12T14:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbf6"
+  },
+  "post_id": "5f93c66e12385642c0cc16f6",
+  "user_id": "5f94b30e0be6070894e1b950",
+  "value": "3",
+  "date_rating": "2020-10-12T13:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbf7"
+  },
+  "post_id": "5f93c5b312385642c0cc16f2",
+  "user_id": "5f94b30e0be6070894e1b94b",
+  "value": "2",
+  "date_rating": "2020-10-11T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbf8"
+  },
+  "post_id": "5f93c63512385642c0cc16f4",
+  "user_id": "5f94b30e0be6070894e1b946",
+  "value": "2",
+  "date_rating": "2020-10-09T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbf9"
+  },
+  "post_id": "5f93c5b312385642c0cc16f2",
+  "user_id": "5f94b30e0be6070894e1b953",
+  "value": "2",
+  "date_rating": "2020-09-12T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbfa"
+  },
+  "post_id": "5f93c63912385642c0cc16f5",
+  "user_id": "5f94b30e0be6070894e1b952",
+  "value": "2",
+  "date_rating": "2020-10-22T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbfb"
+  },
+  "post_id": "5f93c5a012385642c0cc16ed",
+  "user_id": "5f94b30e0be6070894e1b948",
+  "value": "1",
+  "date_rating": "2020-10-23T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbfc"
+  },
+  "post_id": "5f93c5a612385642c0cc16ee",
+  "user_id": "5f94b30e0be6070894e1b952",
+  "value": "2",
+  "date_rating": "2020-10-23T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbfd"
+  },
+  "post_id": "5f93c66e12385642c0cc16f6",
+  "user_id": "5f94b30e0be6070894e1b949",
+  "value": "3",
+  "date_rating": "2020-09-12T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbfe"
+  },
+  "post_id": "5f93c59c12385642c0cc16ec",
+  "user_id": "5f94b30e0be6070894e1b952",
+  "value": "2",
+  "date_rating": "2020-10-19T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bbff"
+  },
+  "post_id": "5f93c5af12385642c0cc16f1",
+  "user_id": "5f94b30e0be6070894e1b94f",
+  "value": "1",
+  "date_rating": "2020-10-17T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc00"
+  },
+  "post_id": "5f93c5ac12385642c0cc16f0",
+  "user_id": "5f94b30e0be6070894e1b946",
+  "value": "1",
+  "date_rating": "2020-10-15T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc01"
+  },
+  "post_id": "5f93c67112385642c0cc16f7",
+  "user_id": "5f94b30e0be6070894e1b94f",
+  "value": "4",
+  "date_rating": "2020-10-12T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc02"
+  },
+  "post_id": "5f93c66e12385642c0cc16f6",
+  "user_id": "5f94b30e0be6070894e1b949",
+  "value": "3",
+  "date_rating": "2020-10-12T14:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc03"
+  },
+  "post_id": "5f93c5af12385642c0cc16f1",
+  "user_id": "5f94b30e0be6070894e1b946",
+  "value": "3",
+  "date_rating": "2020-10-12T13:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc04"
+  },
+  "post_id": "5f93c5a012385642c0cc16ed",
+  "user_id": "5f94b30e0be6070894e1b945",
+  "value": "2",
+  "date_rating": "2020-10-11T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc05"
+  },
+  "post_id": "5f93c5af12385642c0cc16f1",
+  "user_id": "5f94b30e0be6070894e1b94f",
+  "value": "2",
+  "date_rating": "2020-10-09T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc06"
+  },
+  "post_id": "5f93c63912385642c0cc16f5",
+  "user_id": "5f94b30e0be6070894e1b947",
+  "value": "2",
+  "date_rating": "2020-09-12T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc07"
+  },
+  "post_id": "5f93c5a612385642c0cc16ee",
+  "user_id": "5f94b30e0be6070894e1b950",
+  "value": "2",
+  "date_rating": "2020-10-22T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc08"
+  },
+  "post_id": "5f93c63912385642c0cc16f5",
+  "user_id": "5f94b30e0be6070894e1b94e",
+  "value": "1",
+  "date_rating": "2020-10-23T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc09"
+  },
+  "post_id": "5f93c5b312385642c0cc16f2",
+  "user_id": "5f94b30e0be6070894e1b950",
+  "value": "2",
+  "date_rating": "2020-10-23T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc0a"
+  },
+  "post_id": "5f93c66e12385642c0cc16f6",
+  "user_id": "5f94b30e0be6070894e1b94b",
+  "value": "3",
+  "date_rating": "2020-09-12T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc0b"
+  },
+  "post_id": "5f93c5a612385642c0cc16ee",
+  "user_id": "5f94b30e0be6070894e1b94c",
+  "value": "2",
+  "date_rating": "2020-10-19T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc0c"
+  },
+  "post_id": "5f93c66e12385642c0cc16f6",
+  "user_id": "5f94b30e0be6070894e1b94f",
+  "value": "1",
+  "date_rating": "2020-10-17T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc0d"
+  },
+  "post_id": "5f93c5b612385642c0cc16f3",
+  "user_id": "5f94b30e0be6070894e1b950",
+  "value": "1",
+  "date_rating": "2020-10-15T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc0e"
+  },
+  "post_id": "5f93c63512385642c0cc16f4",
+  "user_id": "5f94b30e0be6070894e1b951",
+  "value": "4",
+  "date_rating": "2020-10-12T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc0f"
+  },
+  "post_id": "5f93c4b2b8a19af79a0f2676",
+  "user_id": "5f94b30e0be6070894e1b94e",
+  "value": "3",
+  "date_rating": "2020-10-12T14:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc10"
+  },
+  "post_id": "5f93c5ac12385642c0cc16f0",
+  "user_id": "5f94b30e0be6070894e1b947",
+  "value": "3",
+  "date_rating": "2020-10-12T13:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc11"
+  },
+  "post_id": "5f93c5a012385642c0cc16ed",
+  "user_id": "5f94b30e0be6070894e1b948",
+  "value": "2",
+  "date_rating": "2020-10-11T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc12"
+  },
+  "post_id": "5f93c5b612385642c0cc16f3",
+  "user_id": "5f94b30e0be6070894e1b94b",
+  "value": "2",
+  "date_rating": "2020-10-09T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc13"
+  },
+  "post_id": "5f93c67112385642c0cc16f7",
+  "user_id": "5f94b30e0be6070894e1b94a",
+  "value": "2",
+  "date_rating": "2020-09-12T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc14"
+  },
+  "post_id": "5f93c66e12385642c0cc16f6",
+  "user_id": "5f94b30e0be6070894e1b94e",
+  "value": "2",
+  "date_rating": "2020-10-22T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc15"
+  },
+  "post_id": "5f93c67112385642c0cc16f7",
+  "user_id": "5f94b30e0be6070894e1b94f",
+  "value": "1",
+  "date_rating": "2020-10-23T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc16"
+  },
+  "post_id": "5f93c63512385642c0cc16f4",
+  "user_id": "5f94b30e0be6070894e1b946",
+  "value": "2",
+  "date_rating": "2020-10-23T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc17"
+  },
+  "post_id": "5f93c5b612385642c0cc16f3",
+  "user_id": "5f94b30e0be6070894e1b950",
+  "value": "3",
+  "date_rating": "2020-09-12T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc18"
+  },
+  "post_id": "5f93c5b312385642c0cc16f2",
+  "user_id": "5f94b30e0be6070894e1b949",
+  "value": "2",
+  "date_rating": "2020-10-19T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc19"
+  },
+  "post_id": "5f93c4b2b8a19af79a0f2676",
+  "user_id": "5f94b30e0be6070894e1b945",
+  "value": "1",
+  "date_rating": "2020-10-17T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc1a"
+  },
+  "post_id": "5f93c63912385642c0cc16f5",
+  "user_id": "5f94b30e0be6070894e1b94c",
+  "value": "1",
+  "date_rating": "2020-10-15T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc1b"
+  },
+  "post_id": "5f93c5a012385642c0cc16ed",
+  "user_id": "5f94b30e0be6070894e1b94b",
+  "value": "4",
+  "date_rating": "2020-10-12T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc1c"
+  },
+  "post_id": "5f93c63512385642c0cc16f4",
+  "user_id": "5f94b30e0be6070894e1b94e",
+  "value": "3",
+  "date_rating": "2020-10-12T14:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc1d"
+  },
+  "post_id": "5f93c63512385642c0cc16f4",
+  "user_id": "5f94b30e0be6070894e1b949",
+  "value": "3",
+  "date_rating": "2020-10-12T13:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc1e"
+  },
+  "post_id": "5f93c59c12385642c0cc16ec",
+  "user_id": "5f94b30e0be6070894e1b946",
+  "value": "2",
+  "date_rating": "2020-10-11T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc1f"
+  },
+  "post_id": "5f93c5a612385642c0cc16ee",
+  "user_id": "5f94b30e0be6070894e1b952",
+  "value": "2",
+  "date_rating": "2020-10-09T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc20"
+  },
+  "post_id": "5f93c4b2b8a19af79a0f2676",
+  "user_id": "5f94b30e0be6070894e1b94e",
+  "value": "2",
+  "date_rating": "2020-09-12T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc21"
+  },
+  "post_id": "5f93c5b612385642c0cc16f3",
+  "user_id": "5f94b30e0be6070894e1b952",
+  "value": "2",
+  "date_rating": "2020-10-22T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc22"
+  },
+  "post_id": "5f93c4b2b8a19af79a0f2676",
+  "user_id": "5f94b30e0be6070894e1b947",
+  "value": "1",
+  "date_rating": "2020-10-23T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc23"
+  },
+  "post_id": "5f93c67112385642c0cc16f7",
+  "user_id": "5f94b30e0be6070894e1b951",
+  "value": "2",
+  "date_rating": "2020-10-23T17:00:00.000Z"
+},{
+  "_id": {
+    "$oid": "5f94ebaf0be6070894e1bc24"
+  },
+  "post_id": "5f93c5a912385642c0cc16ef",
+  "user_id": "5f94b30e0be6070894e1b948",
+  "value": "3",
+  "date_rating": "2020-09-12T17:00:00.000Z"
+}]

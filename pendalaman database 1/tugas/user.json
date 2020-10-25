@@ -1,0 +1,65 @@
+[{
+  "_id": "5f94b30e0be6070894e1b945",
+  "name": "Putra",
+  "level": "visitor"
+},{
+  "_id": "5f94b30e0be6070894e1b946",
+  "name": "Irwan",
+  "level": "visitor"
+},{
+  "_id": "5f94b30e0be6070894e1b947",
+  "name": "Zaid",
+  "level": "visitor"
+},{
+  "_id": "5f94b30e0be6070894e1b948",
+  "name": "Lisma",
+  "level": "visitor"
+},{
+  "_id": "5f94b30e0be6070894e1b949",
+  "name": "Nur",
+  "level": "visitor"
+},{
+  "_id": "5f94b30e0be6070894e1b94a",
+  "name": "Isma",
+  "level": "visitor"
+},{
+  "_id": "5f94b30e0be6070894e1b94b",
+  "name": "Rizky",
+  "level": "visitor"
+},{
+  "_id": "5f94b30e0be6070894e1b94c",
+  "name": "Rendi",
+  "level": "visitor"
+},{
+  "_id": "5f94b30e0be6070894e1b94d",
+  "name": "Mujtaba",
+  "level": "visitor"
+},{
+  "_id": "5f94b30e0be6070894e1b94e",
+  "name": "Siddiq",
+  "level": "visitor"
+},{
+  "_id": "5f94b30e0be6070894e1b94f",
+  "name": "Aidil",
+  "level": "visitor"
+},{
+  "_id": "5f94b30e0be6070894e1b950",
+  "name": "Zannah",
+  "level": "visitor"
+},{
+  "_id": "5f94b30e0be6070894e1b951",
+  "name": "Afni",
+  "level": "visitor"
+},{
+  "_id": "5f94b30e0be6070894e1b952",
+  "name": "Rohim",
+  "level": "visitor"
+},{
+  "_id": "5f94b30e0be6070894e1b953",
+  "name": "Liana",
+  "level": "visitor"
+},{
+  "_id": "5f94b30e0be6070894e1b954",
+  "name": "Toke Medan",
+  "level": "admin"
+}]

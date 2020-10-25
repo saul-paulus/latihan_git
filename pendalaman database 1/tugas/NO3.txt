@@ -1,0 +1,50 @@
+db.getCollection("comment").aggregate(
+    [
+        { 
+            "$project" : { 
+                "_id" : null, 
+                "comment" : "$$ROOT"
+            }
+        }, 
+        { 
+            "$lookup" : { 
+                "localField" : "comment.user_id", 
+                "from" : "user", 
+                "foreignField" : "_id", 
+                "as" : "user"
+            }
+        },
+        { 
+            "$group" : { 
+                "_id" : { 
+                    "user᎐name" : "$user.name"
+                }, 
+                "TotalComment" : { 
+                    "$sum" : 1
+                }
+            }
+        }, 
+        { 
+            "$project" : { 
+                "user.name" : "$_id.user᎐name", 
+                "TotalComment" : "$TotalComment", 
+                "_id" : NumberInt(0)
+            }
+        }, 
+        { 
+            "$sort" : { 
+                "TotalComment" : -1
+            }
+        }, 
+        { 
+            "$project" : { 
+                "_id" : NumberInt(0), 
+                "user.name" : "$user.name", 
+                "TotalComment" : "$TotalComment"
+            }
+        }, 
+        { 
+            "$limit" : NumberInt(5)
+        }
+    ]
+);
