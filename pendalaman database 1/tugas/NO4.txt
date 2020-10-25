@@ -1,0 +1,50 @@
+db.getCollection("post").aggregate(
+    [
+        { 
+            "$project" : { 
+                "_id" : null, 
+                "post" : "$$ROOT"
+            }
+        }, 
+        { 
+            "$lookup" : { 
+                "localField" : "post.tag_id", 
+                "from" : "post_tag", 
+                "foreignField" : "_id", 
+                "as" : "post_tag"
+            }
+        },
+        { 
+            "$group" : { 
+                "_id" : { 
+                    "post_tag᎐name" : "$post_tag.name"
+                }, 
+                "usedInPosts" : { 
+                    "$sum" : 1
+                }
+            }
+        }, 
+        { 
+            "$project" : { 
+                "post_tag.name" : "$_id.post_tag᎐name", 
+                "usedInPosts" : "$usedInPosts", 
+                "_id" : NumberInt(0)
+            }
+        }, 
+        { 
+            "$sort" : { 
+                "usedInPosts" : -1
+            }
+        }, 
+        { 
+            "$project" : { 
+                "_id" : NumberInt(0), 
+                "post_tag.name" : "$post_tag.name", 
+                "usedInPosts" : "$usedInPosts"
+            }
+        }, 
+        { 
+            "$limit" : NumberInt(5)
+        }
+    ]
+);
